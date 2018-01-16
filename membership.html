@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HETC - Membership</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/js_project.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style_project.css" />
+</head>
+
+<body id="part5">
+    <div class="topbar">
+        HARVARD EXTENSION SCHOOL
+        <a href="https://www.extension.harvard.edu/">EXTENSION.HARVARD.EDU</a>
+    </div>
+    <nav class="sitenav">
+        <div class="logo">
+            <img class="logo" src="images/logo-hetc-120.png" alt="HETC Logo" />
+        </div>
+        <ul>
+            <li id="navpart1"><a href="index.html">HOME</a></li>
+            <li id="navpart2"><a href="#">EVENTS</a></li>
+            <li id="navpart3"><a href="#">RESOURCES</a></li>
+            <li id="navpart4"><a href="#">CONTACT US</a></li>
+            <li id="navpart5"><a href="membership.html">MEMBERSHIP</a></li>
+            <li id="navpart6"><a href="faq.html">FAQ</a></li>
+            <li id="navpart7" class="endnav"><a href="#">2017 BOARD</a></li>
+        </ul>
+    </nav>
+    <form id="form" method="post" action="http://cscie12.dce.harvard.edu/echo">
+        <div class="text">
+            <h1>Become a Member</h1>
+            <p>By joining HETC, you will be informed of events and have access to resources provided by the club. Members are expected to attend meetings, and contribute to our mission to enrich Harvard Extension School student's experience. </p>
+        </div>
+        <fieldset>
+            <legend>Membership Registration</legend>
+            <p>
+                <label for="name">First and Last Name</label>
+                <input id="name" name="name" size="25" class="required" />
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" size="25" class="required email" />
+            </p>
+            <p>Are you a student or alumnus at the Harvard Extension School?
+                <input type="radio" name="student" id="program_yes" value="yes" onclick="displayProgramOptions()" /><label for="program_yes">Yes</label>
+                <input type="radio" name="student" id="program_no" value="no" onclick="displayProgramOptions()" /><label for="program_no">No</label>
+            </p>
+            <fieldset id="program_options" style="display: none;">
+                <legend>Select what type of program you are enrolled</legend>
+                <p><label for="alb">ALB</label>
+                    <input type="checkbox" name="program_alb" id="alb" />
+                </p>
+                <p><label for="alm">ALM</label>
+                    <input type="checkbox" name="program_alm" id="alm" />
+                </p>
+                <p><label for="certificate">Certificate</label>
+                    <input type="checkbox" name="program_certificate" id="certificate" />
+                </p>
+                <p><label for="alumnus">Alumnus</label>
+                    <input type="checkbox" name="program_alumnus" id="alumnus" />
+                </p>
+                <p><label for="degree">Please, specify your concentration</label>
+                    <input id="degree" name="degree" />
+                </p>
+            </fieldset>
+            <p>
+                <label for="comment">Please, briefly tell us why you would like to join the club.</label>
+                <textarea rows="9" cols="45" id="comment" name="comment" class="required comments"></textarea>
+            </p>
+            <p><label for="newsletter"> I would like to receive the newsletter.</label>
+                <input type="checkbox" class="checkbox" name="newsletter" id="newsletter" />
+            </p>
+            <p>
+                <input class="submit" type="submit" value="Submit Form" />
+            </p>
+        </fieldset>
+    </form>
+    <footer class="bottom">
+        <ul class="links">
+            <li>LINKS</li>
+            <li><a href="#">Harvard Extension School</a></li>
+            <li><a href="#">Harvard Division of Continuing Education</a></li>
+            <li><a href="#">Harvard Extension Student Association</a></li>
+        </ul>
+        <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
