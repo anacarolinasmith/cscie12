@@ -1,0 +1,206 @@
+body {
+    font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+/*TOPBAR STYLE*/
+
+.topbar {
+    background-color: #F3F3F1;
+    color: #8E1D2F;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;    
+}
+.topbar a {
+    float: right;
+    font-size: 14px;
+}
+.topbar a:link,
+.topbar a:visited,
+.topbar a:active
+{
+    color: #8E1D2F;
+    text-decoration: none;
+}
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+
+/*NAVIGATION STYLE*/
+
+.logo {
+    float: left;
+    padding-left: 20px;
+}
+nav.sitenav ul {
+    margin: 15px 0 80px 0;
+    font-size: 15px;
+    list-style: none;
+    background: #FFFFFF;
+}
+nav.sitenav li {
+    display: inline-block;
+    font-weight: bold;
+    border-right-style: groove;
+}
+nav.sitenav a {
+    display: block;
+    font-weight: bold;
+    padding: 5px 50px;
+}
+nav.sitenav a:link,
+nav.sitenav a:visited,
+nav.sitenav a:hover,
+nav.sitenav a:active {
+    color: #8E1D2F;
+    text-decoration: none;
+}
+nav.sitenav ul li a:hover {
+    color: #E6B607;
+}
+nav.sitenav .endnav {
+    border-style: none;
+}
+
+/*I AM HERE STYLE*/
+
+nav.sitenav #iamhere a,
+nav.sitenav #iamhere a:hover {
+    color: #E6B607;
+    font-size: 20px;
+}
+
+/*DIV.TEXT STYLE*/
+
+div.text {
+    margin-bottom: 20px;
+    color: #8E1D2F;
+    font-size: 25px;
+    text-align: center;
+}
+div.text p {
+    color: gray;
+    font-size: 18px;
+}
+
+/*SLIDESHOW STYLE*/
+
+.container {
+    margin-bottom: 120px;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+   position:fixed;
+   padding-top: 15px;
+   left: 0px;
+   bottom: 0px;
+   height: 100px;
+   width: 100%;
+   background: #F3F3F1;
+}
+
+/*SOCIAL MEDIA ICONS ON FOOTER*/
+
+.fa {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    text-decoration: underline;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: #ffffff;
+    margin-left: 70px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: #ffffff;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: #ffffff;
+}
+.fa-instagram {
+    background: #125688;
+    color: #ffffff;
+}
+
+
+/*LINKS(FOOTER) STYLE*/
+
+footer ul.links {
+    margin-right: 70px;
+    list-style: none;
+    float: right;
+    text-align: right;
+}
+ul.links a:link,
+ul.links a:visited,
+a:active {
+    color: #8E1D2F;
+    text-decoration: none;
+}
+ul.links a:hover {
+    color: #E6B607;
+}
+
+
+/*MEMBERSHIP STYLE (BODY PART 5)*/
+
+#part5 {
+    margin: 0;
+}
+#form {
+    border-color: #8E1D2F;
+    margin-bottom: 200px;
+}
+#form legend {
+    color: #8E1D2F;
+    font-weight: bold;
+    font-size: 20px;
+}
+#form .submit {
+    font-size: 15px;
+}
+#form textarea {
+    margin-top: 10px;
+    display: block;
+}
+input.error
+{
+    border: thin solid #ff0000;
+}
+label.error {
+    color: #ff0000;
+    display: block;
+}
+
+
+/*FAQ STYLE (BODY PART 6)*/
+
+#part6 {
+    margin: 0;
+}
+.faq {
+    margin: 0 10px 0 10px;
+}
+div.faq a:link,
+div.faq a:visited,
+a:active {
+    font-size: 20px;
+    color: #8E1D2F;
+    text-decoration: none;
+}
+div.faq a:hover {
+    color: #E6B607;
+}
+div.faq a {
+    display: block;
+}
+
